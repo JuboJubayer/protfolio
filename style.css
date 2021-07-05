@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;}
+
+.flex-container{
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:80%;
+}
+.button{
+    margin-top: 40px;
+}
+a{
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+a:hover{
+
+    background-image: linear-gradient(tomato,orange);
+
+}
+.color{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 300px;
+}
+
+.Experiences-item1{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 1px;
+    padding: 20px;
+    border-left: 7px solid;
+    background-image: linear-gradien(salmon , tomato);
+    border-image-source: 1; 
+    
+}
+
+.Experiences-item2{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 1px;
+    padding: 20px;
+
+    border-left: 7px solid;
+    background-image: linear-gradien(salmon , tomato);
+    border-image-source: 1; 
+    
+}
+.Experiences-item h1{
+    font-size: 35px;
+
+
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    background-image: linear-gradien(blue,cyan);
+    border-image-source: 1;
+}
+
+#Full-stack-developer{
+
+}
+
+.flexcard{
+    justify-content: space-evenly;
+}
